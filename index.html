@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+
+    <div class="expense">
+        <button class="addnew" id="addExpense">Add New Expense</button>
+
+        <div class="expense-form">
+            <input type="text" name="expense title" id="title" placeholder="Expense title">
+            <input type="number" name="amount" min="1" id="amount" placeholder="Amount">
+            <input type="date" name="date" id="date" placeholder="Date">
+
+            <div class="flexit">
+                <button class="button one" id="buttonOne">Cancel</button>
+                <button class="button two" id="buttonTwo">Add Expense</button>
+            </div>
+        </div>
+
+        <div class="expense-list">
+            <p class="expense-list-head">Expense List</p>
+
+            <ul class="list-menu">
+                    <!-- <li class="list">
+                        <p class="expense-items-list" id="list-date"><span>2</span><br><span>June</span><br><span>2022</span></p>
+                        <p class="expense-items-list" id="list-item">Item1</p>
+                        <p class="expense-items-list" id="list-amount">&dollar;0</p>
+                        <button  id="remove" class="expense-items-list out">Remove</button>
+                    </li> -->
+
+            </ul>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
